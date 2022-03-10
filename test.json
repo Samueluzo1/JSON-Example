@@ -1,0 +1,19 @@
+
+[
+    {
+        "name": "Big Company",
+        "numberofEmployees": 250,
+        "ceo": "Mary",
+        "rating": 3.6
+    },
+    {
+        "name": "Small Company",
+        "numberofEmployees": 3,
+        "ceo": null,
+        "rating": 4.2
+    }
+]
+
+
+
+
