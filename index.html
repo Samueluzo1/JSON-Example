@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JSON Example</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div>My JSON Example</div>
+
     <script type="text/javascript">
-    let companies = 
-    
-`[
+      let companies = `[
     {
         "name": "Big Company",
         "numberofEmployees": 250,
@@ -23,11 +23,11 @@
         "ceo": null,
         "rating": 4.2
     }
-]`         // backticks makes the console log print as string format - if i remove the backticks I will see the difference // 
+]`; // backticks makes the console log print as string format - if i remove the backticks I will see the difference //
 
-
-console.log(JSON.parse(companies)[1].name);  // if i console.log(JSON.parse(companies)); this convetrs JSON string into a JavaScript object we are parsing the JSON it takes the string and converts it into a js object
-    </script> // adding the 1 array or 2 array .name what will print will show in my browser or console is the name of the company. 
-
-</body>
+      console.log(JSON.parse(companies)[1].name); // if i console.log(JSON.parse(companies)); this convetrs JSON string into a JavaScript object we are parsing the JSON it takes the string and converts it into a js object
+    </script>
+    // adding the 1 array or 2 array .name what will print will show in my
+    browser or console is the name of the company.
+  </body>
 </html>
